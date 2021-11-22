@@ -2,8 +2,8 @@
   "name": "dstorage",
   "version": "0.1.0",
   "description": "Decentralized File Storage",
-  "author": "Dapp University",
-  "homepage": ".",
+  "author": "Shubham Dubey",
+  "homepage": "https://sdubb.github.io/cryptodrive/",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.1.0",
     "babel-polyfill": "6.26.0",
