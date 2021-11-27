@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      var test = true; // False if contracts are on Mainnet
+      var contractAddressSale = '0x93Df7D7E01C60843AcF1b9Ec463E5772B959a0ce';
+      var contractAddressToken = '0x040C14d8bcD464d8767e0f7d2cF1147ED8F1c36A';
+      </script>
+      
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta
@@ -25,6 +31,20 @@
     <title>DStorage</title>
   </head>
   <body>
+
+    <div style="text-align: center">
+      <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addTestMATIC" style="font-size: 12px;">Polygon (MATIC) Mumbai Testnet</button>
+      <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
+      <div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
+      <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span></div>
+      </div>
+      
+      
+      <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
+      <script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
+      <script src='https://dappbuilder.org/matic/tokensaleclaimtimeref/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
+      
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
