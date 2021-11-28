@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c20a9aceb3e8f4980081884623360aa9",
+    "revision": "afc4aef6a70259f39df5b842c905ccfa",
     "url": "/cryptodrive/index.html"
   },
   {
