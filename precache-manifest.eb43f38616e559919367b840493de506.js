@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afc4aef6a70259f39df5b842c905ccfa",
+    "revision": "df372695078448e814a0708afe380cc5",
     "url": "/cryptodrive/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cryptodrive/static/css/2.a6a636a0.chunk.css"
   },
   {
-    "revision": "563669d38a264b569625",
+    "revision": "1a4079cb6095e6b9e0bb",
     "url": "/cryptodrive/static/css/main.d850c1a7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cryptodrive/static/js/2.67162a96.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "563669d38a264b569625",
-    "url": "/cryptodrive/static/js/main.d8ba1d59.chunk.js"
+    "revision": "1a4079cb6095e6b9e0bb",
+    "url": "/cryptodrive/static/js/main.82acb7ea.chunk.js"
   },
   {
     "revision": "515e79a3ea24588b009f",
