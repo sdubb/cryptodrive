@@ -23,7 +23,7 @@ class Navbar extends Component {
                  alt=""
                  className="text-white"
                  rel="noopener noreferrer"
-                 href={"https://etherscan.io/address/" + this.props.account}>
+                 href={"https://mumbai.polygonscan.com/address/" + this.props.account}>
                 {this.props.account.substring(0,6)}...{this.props.account.substring(38,42)}
               </a>
             </small>
